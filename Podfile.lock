@@ -1,0 +1,72 @@
+PODS:
+  - AFNetworkActivityLogger (2.0.4):
+    - AFNetworking/NSURLConnection (~> 2.0)
+    - AFNetworking/NSURLSession (~> 2.0)
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - AFOnceKit (1.0.0)
+  - iRate (1.11.7)
+  - JLRoutes (2.0.5)
+  - JSONModel (1.7.0)
+  - Masonry (1.0.2)
+  - MBProgressHUD (1.0.0)
+  - MJRefresh (3.1.12)
+  - Reachability (3.2)
+  - RequestUtils (1.1.2)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - UIView+FDCollapsibleConstraints (1.1)
+
+DEPENDENCIES:
+  - AFNetworkActivityLogger
+  - AFNetworking
+  - AFOnceKit
+  - iRate
+  - JLRoutes
+  - JSONModel
+  - Masonry
+  - MBProgressHUD
+  - MJRefresh
+  - Reachability
+  - RequestUtils
+  - SDWebImage
+  - UIView+FDCollapsibleConstraints
+
+SPEC CHECKSUMS:
+  AFNetworkActivityLogger: 121486778117d53b3ab1c61d264b88081d0c3eee
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  AFOnceKit: 3f7917561e588e995af8e650e683caa4cff4ea15
+  iRate: adae3f183d83c925ac42d7a2e86e89e838963f57
+  JLRoutes: 2a5ee61d739b51a98c9d8112bee5149a19de8854
+  JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  RequestUtils: 0f04f89abca3936c6566e2f4c3ce5d252036bc89
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  UIView+FDCollapsibleConstraints: 9357eaf03b4e088263ab74a3b86a382a64ce38dd
+
+PODFILE CHECKSUM: f9dfd127fe54caa94473d0b6fb331f65870542e5
+
+COCOAPODS: 1.1.1
