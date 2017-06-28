@@ -8,8 +8,9 @@
 
 #import "YFBaseViewController.h"
 #import <MJRefresh/MJRefresh.h>
+#import "UIScrollView+EmptyCover.h"
 
-@interface YFBaseTableViewController : YFBaseViewController<UITableViewDataSource, UITableViewDelegate>
+@interface YFBaseTableViewController : YFBaseViewController<UITableViewDataSource, UITableViewDelegate,WPScrollViewEmptyCoverSource>
 
 @property (nonatomic, readonly) UITableView *tableView;
 //@property (nonatomic, readonly) MJRefreshHeaderView * refreshHeader;

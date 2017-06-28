@@ -39,6 +39,7 @@
 		047216E01F0274B800D4F3A9 /* YFPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 047216D71F0274B800D4F3A9 /* YFPopupView.m */; };
 		047216E11F0274B800D4F3A9 /* YFPopupWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 047216D91F0274B800D4F3A9 /* YFPopupWindow.m */; };
 		047216E21F0274B800D4F3A9 /* YFTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 047216DC1F0274B800D4F3A9 /* YFTextField.m */; };
+		047D9C3C1F035F640045EFDC /* UIScrollView+EmptyCover.m in Sources */ = {isa = PBXBuildFile; fileRef = 047D9C3B1F035F640045EFDC /* UIScrollView+EmptyCover.m */; };
 		11739E1BEEB4134654C34419 /* libPods-YFDefaultProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A631CE290B75C6C5B69F9D0 /* libPods-YFDefaultProject.a */; };
 /* End PBXBuildFile section */
 
@@ -107,6 +108,8 @@
 		047216D91F0274B800D4F3A9 /* YFPopupWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFPopupWindow.m; sourceTree = "<group>"; };
 		047216DB1F0274B800D4F3A9 /* YFTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFTextField.h; sourceTree = "<group>"; };
 		047216DC1F0274B800D4F3A9 /* YFTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFTextField.m; sourceTree = "<group>"; };
+		047D9C3A1F035F640045EFDC /* UIScrollView+EmptyCover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EmptyCover.h"; sourceTree = "<group>"; };
+		047D9C3B1F035F640045EFDC /* UIScrollView+EmptyCover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+EmptyCover.m"; sourceTree = "<group>"; };
 		1A631CE290B75C6C5B69F9D0 /* libPods-YFDefaultProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YFDefaultProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		294B26A7193CD12F4182E2D9 /* Pods-YFDefaultProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFDefaultProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YFDefaultProject/Pods-YFDefaultProject.debug.xcconfig"; sourceTree = "<group>"; };
 		F514B52FC28AF79C1B609402 /* Pods-YFDefaultProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFDefaultProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-YFDefaultProject/Pods-YFDefaultProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -149,6 +152,7 @@
 				0472160E1F0238B400D4F3A9 /* AppDelegate.m */,
 				047216101F0238B400D4F3A9 /* ViewController.h */,
 				047216111F0238B400D4F3A9 /* ViewController.m */,
+				047D9C381F035F070045EFDC /* YFTool */,
 				047216A51F025F4200D4F3A9 /* Supporting Files */,
 				047216371F023E0F00D4F3A9 /* YFCategory */,
 				047216381F023E0F00D4F3A9 /* YFDebug */,
@@ -246,6 +250,7 @@
 		047216421F023E0F00D4F3A9 /* YFUI */ = {
 			isa = PBXGroup;
 			children = (
+				047D9C391F035F520045EFDC /* YFEmptyCover */,
 				047216CD1F0274B700D4F3A9 /* YFLayoutButton */,
 				047216D01F0274B700D4F3A9 /* YFPopupView */,
 				047216DA1F0274B800D4F3A9 /* YFTextField */,
@@ -468,6 +473,22 @@
 			path = YFTextField;
 			sourceTree = "<group>";
 		};
+		047D9C381F035F070045EFDC /* YFTool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = YFTool;
+			sourceTree = "<group>";
+		};
+		047D9C391F035F520045EFDC /* YFEmptyCover */ = {
+			isa = PBXGroup;
+			children = (
+				047D9C3A1F035F640045EFDC /* UIScrollView+EmptyCover.h */,
+				047D9C3B1F035F640045EFDC /* UIScrollView+EmptyCover.m */,
+			);
+			path = YFEmptyCover;
+			sourceTree = "<group>";
+		};
 		099E905952F23D4CF1BB7D08 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -609,6 +630,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047D9C3C1F035F640045EFDC /* UIScrollView+EmptyCover.m in Sources */,
 				0472168F1F02571D00D4F3A9 /* NSNull+Safe.m in Sources */,
 				047216DF1F0274B800D4F3A9 /* YFPopupQueue.m in Sources */,
 				0472169C1F02571D00D4F3A9 /* UIView+Frame.m in Sources */,

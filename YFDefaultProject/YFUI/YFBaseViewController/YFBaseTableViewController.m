@@ -43,6 +43,7 @@
 {
     _tableView.delegate = nil;
     _tableView.dataSource = nil;
+    _tableView.emptyCoverSource = nil;
     
 //    if (self.refreshFooter) {
 //        [self.refreshFooter free];
@@ -70,6 +71,7 @@
 {
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
+    self.tableView.emptyCoverSource = self;
     //如果实现了height代理方法，这里就无效，需要在代理方法里返回UITableViewAutomaticDimension或者计算的高度。
     self.tableView.rowHeight = UITableViewAutomaticDimension;
     self.tableView.estimatedRowHeight = 800;
@@ -226,7 +228,12 @@
 {
     return CGFLOAT_MIN;
 }
-
+#pragma mark - WPScrollViewEmptyCoverSource methods
+//子类重写这个方法，可以自动在无数据时显示友好提示view
+- (UIView *)emptyCoverViewInScrollView:(UIScrollView *)scrollView
+{
+    return nil;
+}
 #pragma mark - property getter
 - (UITableView *)tableView
 {
