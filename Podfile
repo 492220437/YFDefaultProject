@@ -21,7 +21,7 @@ def common_pods
     #URL各部分快速拼接获取
     pod 'RequestUtils'
     #Model解析
-    pod 'JSONModel'
+    pod 'MJExtension'
     #HUD
     pod 'MBProgressHUD'
     #一个版本只触发一次
@@ -30,6 +30,8 @@ def common_pods
     pod 'iRate'
     #下拉上拉刷新
     pod 'MJRefresh'
+    #分享 比ShareSDK轻量化
+    pod 'OpenShare'
 end
 
 

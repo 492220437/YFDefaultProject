@@ -40,6 +40,10 @@
 		047216E11F0274B800D4F3A9 /* YFPopupWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 047216D91F0274B800D4F3A9 /* YFPopupWindow.m */; };
 		047216E21F0274B800D4F3A9 /* YFTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 047216DC1F0274B800D4F3A9 /* YFTextField.m */; };
 		047D9C3C1F035F640045EFDC /* UIScrollView+EmptyCover.m in Sources */ = {isa = PBXBuildFile; fileRef = 047D9C3B1F035F640045EFDC /* UIScrollView+EmptyCover.m */; };
+		047D9C451F0376C50045EFDC /* YFBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047D9C441F0376C50045EFDC /* YFBaseNavigationController.m */; };
+		047D9C481F0376E50045EFDC /* YFBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047D9C471F0376E50045EFDC /* YFBaseTabBarController.m */; };
+		047D9C4C1F0390C30045EFDC /* OpenShare+YFLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 047D9C4B1F0390C30045EFDC /* OpenShare+YFLogin.m */; };
+		047D9C4E1F03977D0045EFDC /* ReadMe.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 047D9C4D1F03977D0045EFDC /* ReadMe.rtf */; };
 		11739E1BEEB4134654C34419 /* libPods-YFDefaultProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A631CE290B75C6C5B69F9D0 /* libPods-YFDefaultProject.a */; };
 /* End PBXBuildFile section */
 
@@ -110,6 +114,13 @@
 		047216DC1F0274B800D4F3A9 /* YFTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFTextField.m; sourceTree = "<group>"; };
 		047D9C3A1F035F640045EFDC /* UIScrollView+EmptyCover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EmptyCover.h"; sourceTree = "<group>"; };
 		047D9C3B1F035F640045EFDC /* UIScrollView+EmptyCover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+EmptyCover.m"; sourceTree = "<group>"; };
+		047D9C431F0376C50045EFDC /* YFBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFBaseNavigationController.h; sourceTree = "<group>"; };
+		047D9C441F0376C50045EFDC /* YFBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFBaseNavigationController.m; sourceTree = "<group>"; };
+		047D9C461F0376E50045EFDC /* YFBaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFBaseTabBarController.h; sourceTree = "<group>"; };
+		047D9C471F0376E50045EFDC /* YFBaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFBaseTabBarController.m; sourceTree = "<group>"; };
+		047D9C4A1F0390C30045EFDC /* OpenShare+YFLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OpenShare+YFLogin.h"; sourceTree = "<group>"; };
+		047D9C4B1F0390C30045EFDC /* OpenShare+YFLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OpenShare+YFLogin.m"; sourceTree = "<group>"; };
+		047D9C4D1F03977D0045EFDC /* ReadMe.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = ReadMe.rtf; sourceTree = "<group>"; };
 		1A631CE290B75C6C5B69F9D0 /* libPods-YFDefaultProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YFDefaultProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		294B26A7193CD12F4182E2D9 /* Pods-YFDefaultProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFDefaultProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YFDefaultProject/Pods-YFDefaultProject.debug.xcconfig"; sourceTree = "<group>"; };
 		F514B52FC28AF79C1B609402 /* Pods-YFDefaultProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFDefaultProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-YFDefaultProject/Pods-YFDefaultProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -161,6 +172,7 @@
 				0472163F1F023E0F00D4F3A9 /* YFModel */,
 				047216401F023E0F00D4F3A9 /* YFResources */,
 				047216421F023E0F00D4F3A9 /* YFUI */,
+				047D9C4D1F03977D0045EFDC /* ReadMe.rtf */,
 			);
 			path = YFDefaultProject;
 			sourceTree = "<group>";
@@ -266,6 +278,10 @@
 				047216481F023ECB00D4F3A9 /* YFBaseViewController.m */,
 				0472164B1F024D3B00D4F3A9 /* YFBaseTableViewController.h */,
 				0472164C1F024D3B00D4F3A9 /* YFBaseTableViewController.m */,
+				047D9C431F0376C50045EFDC /* YFBaseNavigationController.h */,
+				047D9C441F0376C50045EFDC /* YFBaseNavigationController.m */,
+				047D9C461F0376E50045EFDC /* YFBaseTabBarController.h */,
+				047D9C471F0376E50045EFDC /* YFBaseTabBarController.m */,
 			);
 			path = YFBaseViewController;
 			sourceTree = "<group>";
@@ -416,6 +432,7 @@
 		047216A31F025ADC00D4F3A9 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				047D9C491F0390C30045EFDC /* OpenShare */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -487,6 +504,15 @@
 				047D9C3B1F035F640045EFDC /* UIScrollView+EmptyCover.m */,
 			);
 			path = YFEmptyCover;
+			sourceTree = "<group>";
+		};
+		047D9C491F0390C30045EFDC /* OpenShare */ = {
+			isa = PBXGroup;
+			children = (
+				047D9C4A1F0390C30045EFDC /* OpenShare+YFLogin.h */,
+				047D9C4B1F0390C30045EFDC /* OpenShare+YFLogin.m */,
+			);
+			path = OpenShare;
 			sourceTree = "<group>";
 		};
 		099E905952F23D4CF1BB7D08 /* Pods */ = {
@@ -571,6 +597,7 @@
 				047216AE1F0261B900D4F3A9 /* Info.plist in Resources */,
 				0472161A1F0238B400D4F3A9 /* LaunchScreen.storyboard in Resources */,
 				047216151F0238B400D4F3A9 /* Main.storyboard in Resources */,
+				047D9C4E1F03977D0045EFDC /* ReadMe.rtf in Resources */,
 				047216461F023E0F00D4F3A9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -633,6 +660,7 @@
 				047D9C3C1F035F640045EFDC /* UIScrollView+EmptyCover.m in Sources */,
 				0472168F1F02571D00D4F3A9 /* NSNull+Safe.m in Sources */,
 				047216DF1F0274B800D4F3A9 /* YFPopupQueue.m in Sources */,
+				047D9C451F0376C50045EFDC /* YFBaseNavigationController.m in Sources */,
 				0472169C1F02571D00D4F3A9 /* UIView+Frame.m in Sources */,
 				047216DE1F0274B800D4F3A9 /* YFAlertView.m in Sources */,
 				047216991F02571D00D4F3A9 /* UIImage+Blur.m in Sources */,
@@ -644,12 +672,14 @@
 				047216E01F0274B800D4F3A9 /* YFPopupView.m in Sources */,
 				047216961F02571D00D4F3A9 /* UIButton+Extensions.m in Sources */,
 				0472169A1F02571D00D4F3A9 /* UIImage+Color.m in Sources */,
+				047D9C481F0376E50045EFDC /* YFBaseTabBarController.m in Sources */,
 				047216931F02571D00D4F3A9 /* NSString+Format.m in Sources */,
 				047216AA1F025F4200D4F3A9 /* main.m in Sources */,
 				0472168D1F02571D00D4F3A9 /* NSDictionary+Convert.m in Sources */,
 				047216E21F0274B800D4F3A9 /* YFTextField.m in Sources */,
 				0472168E1F02571D00D4F3A9 /* NSDictionary+Safe.m in Sources */,
 				047216491F023ECB00D4F3A9 /* YFBaseViewController.m in Sources */,
+				047D9C4C1F0390C30045EFDC /* OpenShare+YFLogin.m in Sources */,
 				0472169D1F02571D00D4F3A9 /* UIView+MBIBnspectable.m in Sources */,
 				047216981F02571D00D4F3A9 /* UIColor+RGBColor.m in Sources */,
 				0472169E1F02571D00D4F3A9 /* UIView+ReuseIndentifier.m in Sources */,
