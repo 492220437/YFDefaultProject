@@ -44,6 +44,12 @@
 		047D9C481F0376E50045EFDC /* YFBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047D9C471F0376E50045EFDC /* YFBaseTabBarController.m */; };
 		047D9C4C1F0390C30045EFDC /* OpenShare+YFLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 047D9C4B1F0390C30045EFDC /* OpenShare+YFLogin.m */; };
 		047D9C4E1F03977D0045EFDC /* ReadMe.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 047D9C4D1F03977D0045EFDC /* ReadMe.rtf */; };
+		04A0B27F1F0A1E7E00B262FF /* NSObject+Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A0B27E1F0A1E7E00B262FF /* NSObject+Runtime.m */; };
+		04A0B2A81F0A484A00B262FF /* YFBaseAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A0B2A71F0A484A00B262FF /* YFBaseAPIClient.m */; };
+		04A0B2AB1F0A4B7300B262FF /* YFAPIClientConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A0B2AA1F0A4B7300B262FF /* YFAPIClientConfigure.m */; };
+		04A0B2AE1F0A504C00B262FF /* YFMainAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A0B2AD1F0A504C00B262FF /* YFMainAPIClient.m */; };
+		04A0B2B11F0A5E0400B262FF /* YFMainAPIClient+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A0B2B01F0A5E0400B262FF /* YFMainAPIClient+Test.m */; };
+		04A0B2B41F0A5ED700B262FF /* YFOtherAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A0B2B31F0A5ED700B262FF /* YFOtherAPIClient.m */; };
 		11739E1BEEB4134654C34419 /* libPods-YFDefaultProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A631CE290B75C6C5B69F9D0 /* libPods-YFDefaultProject.a */; };
 /* End PBXBuildFile section */
 
@@ -121,6 +127,18 @@
 		047D9C4A1F0390C30045EFDC /* OpenShare+YFLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OpenShare+YFLogin.h"; sourceTree = "<group>"; };
 		047D9C4B1F0390C30045EFDC /* OpenShare+YFLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OpenShare+YFLogin.m"; sourceTree = "<group>"; };
 		047D9C4D1F03977D0045EFDC /* ReadMe.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = ReadMe.rtf; sourceTree = "<group>"; };
+		04A0B27D1F0A1E7E00B262FF /* NSObject+Runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Runtime.h"; sourceTree = "<group>"; };
+		04A0B27E1F0A1E7E00B262FF /* NSObject+Runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Runtime.m"; sourceTree = "<group>"; };
+		04A0B2A61F0A484A00B262FF /* YFBaseAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFBaseAPIClient.h; sourceTree = "<group>"; };
+		04A0B2A71F0A484A00B262FF /* YFBaseAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFBaseAPIClient.m; sourceTree = "<group>"; };
+		04A0B2A91F0A4B7300B262FF /* YFAPIClientConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFAPIClientConfigure.h; sourceTree = "<group>"; };
+		04A0B2AA1F0A4B7300B262FF /* YFAPIClientConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFAPIClientConfigure.m; sourceTree = "<group>"; };
+		04A0B2AC1F0A504C00B262FF /* YFMainAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFMainAPIClient.h; sourceTree = "<group>"; };
+		04A0B2AD1F0A504C00B262FF /* YFMainAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFMainAPIClient.m; sourceTree = "<group>"; };
+		04A0B2AF1F0A5E0400B262FF /* YFMainAPIClient+Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YFMainAPIClient+Test.h"; sourceTree = "<group>"; };
+		04A0B2B01F0A5E0400B262FF /* YFMainAPIClient+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YFMainAPIClient+Test.m"; sourceTree = "<group>"; };
+		04A0B2B21F0A5ED700B262FF /* YFOtherAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFOtherAPIClient.h; sourceTree = "<group>"; };
+		04A0B2B31F0A5ED700B262FF /* YFOtherAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFOtherAPIClient.m; sourceTree = "<group>"; };
 		1A631CE290B75C6C5B69F9D0 /* libPods-YFDefaultProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YFDefaultProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		294B26A7193CD12F4182E2D9 /* Pods-YFDefaultProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFDefaultProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YFDefaultProject/Pods-YFDefaultProject.debug.xcconfig"; sourceTree = "<group>"; };
 		F514B52FC28AF79C1B609402 /* Pods-YFDefaultProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFDefaultProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-YFDefaultProject/Pods-YFDefaultProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -209,6 +227,9 @@
 		0472163A1F023E0F00D4F3A9 /* YFAPIClient */ = {
 			isa = PBXGroup;
 			children = (
+				04A0B2A31F0A483600B262FF /* YFBaseAPIClient */,
+				04A0B2A41F0A483600B262FF /* YFMainAPIClient */,
+				04A0B2A51F0A483600B262FF /* YFOtherAPIClient */,
 			);
 			path = YFAPIClient;
 			sourceTree = "<group>";
@@ -347,6 +368,8 @@
 			children = (
 				0472165E1F02571D00D4F3A9 /* NSObject+ImpChangeTool.h */,
 				0472165F1F02571D00D4F3A9 /* NSObject+ImpChangeTool.m */,
+				04A0B27D1F0A1E7E00B262FF /* NSObject+Runtime.h */,
+				04A0B27E1F0A1E7E00B262FF /* NSObject+Runtime.m */,
 			);
 			path = NSObject;
 			sourceTree = "<group>";
@@ -515,6 +538,37 @@
 			path = OpenShare;
 			sourceTree = "<group>";
 		};
+		04A0B2A31F0A483600B262FF /* YFBaseAPIClient */ = {
+			isa = PBXGroup;
+			children = (
+				04A0B2A61F0A484A00B262FF /* YFBaseAPIClient.h */,
+				04A0B2A71F0A484A00B262FF /* YFBaseAPIClient.m */,
+				04A0B2A91F0A4B7300B262FF /* YFAPIClientConfigure.h */,
+				04A0B2AA1F0A4B7300B262FF /* YFAPIClientConfigure.m */,
+			);
+			path = YFBaseAPIClient;
+			sourceTree = "<group>";
+		};
+		04A0B2A41F0A483600B262FF /* YFMainAPIClient */ = {
+			isa = PBXGroup;
+			children = (
+				04A0B2AC1F0A504C00B262FF /* YFMainAPIClient.h */,
+				04A0B2AD1F0A504C00B262FF /* YFMainAPIClient.m */,
+				04A0B2AF1F0A5E0400B262FF /* YFMainAPIClient+Test.h */,
+				04A0B2B01F0A5E0400B262FF /* YFMainAPIClient+Test.m */,
+			);
+			path = YFMainAPIClient;
+			sourceTree = "<group>";
+		};
+		04A0B2A51F0A483600B262FF /* YFOtherAPIClient */ = {
+			isa = PBXGroup;
+			children = (
+				04A0B2B21F0A5ED700B262FF /* YFOtherAPIClient.h */,
+				04A0B2B31F0A5ED700B262FF /* YFOtherAPIClient.m */,
+			);
+			path = YFOtherAPIClient;
+			sourceTree = "<group>";
+		};
 		099E905952F23D4CF1BB7D08 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -662,15 +716,18 @@
 				047216DF1F0274B800D4F3A9 /* YFPopupQueue.m in Sources */,
 				047D9C451F0376C50045EFDC /* YFBaseNavigationController.m in Sources */,
 				0472169C1F02571D00D4F3A9 /* UIView+Frame.m in Sources */,
+				04A0B2B11F0A5E0400B262FF /* YFMainAPIClient+Test.m in Sources */,
 				047216DE1F0274B800D4F3A9 /* YFAlertView.m in Sources */,
 				047216991F02571D00D4F3A9 /* UIImage+Blur.m in Sources */,
 				047216DD1F0274B800D4F3A9 /* YFLayoutButton.m in Sources */,
+				04A0B2B41F0A5ED700B262FF /* YFOtherAPIClient.m in Sources */,
 				047216A01F02571D00D4F3A9 /* UIView+SubviewTree.m in Sources */,
 				047216121F0238B400D4F3A9 /* ViewController.m in Sources */,
 				047216971F02571D00D4F3A9 /* UIColor+HexColor.m in Sources */,
 				0472164D1F024D3B00D4F3A9 /* YFBaseTableViewController.m in Sources */,
 				047216E01F0274B800D4F3A9 /* YFPopupView.m in Sources */,
 				047216961F02571D00D4F3A9 /* UIButton+Extensions.m in Sources */,
+				04A0B27F1F0A1E7E00B262FF /* NSObject+Runtime.m in Sources */,
 				0472169A1F02571D00D4F3A9 /* UIImage+Color.m in Sources */,
 				047D9C481F0376E50045EFDC /* YFBaseTabBarController.m in Sources */,
 				047216931F02571D00D4F3A9 /* NSString+Format.m in Sources */,
@@ -681,13 +738,16 @@
 				047216491F023ECB00D4F3A9 /* YFBaseViewController.m in Sources */,
 				047D9C4C1F0390C30045EFDC /* OpenShare+YFLogin.m in Sources */,
 				0472169D1F02571D00D4F3A9 /* UIView+MBIBnspectable.m in Sources */,
+				04A0B2AE1F0A504C00B262FF /* YFMainAPIClient.m in Sources */,
 				047216981F02571D00D4F3A9 /* UIColor+RGBColor.m in Sources */,
 				0472169E1F02571D00D4F3A9 /* UIView+ReuseIndentifier.m in Sources */,
 				047216901F02571D00D4F3A9 /* NSObject+ImpChangeTool.m in Sources */,
 				0472160F1F0238B400D4F3A9 /* AppDelegate.m in Sources */,
+				04A0B2A81F0A484A00B262FF /* YFBaseAPIClient.m in Sources */,
 				0472169F1F02571D00D4F3A9 /* UIView+Screenshot.m in Sources */,
 				047216E11F0274B800D4F3A9 /* YFPopupWindow.m in Sources */,
 				047216941F02571D00D4F3A9 /* NSString+Hash.m in Sources */,
+				04A0B2AB1F0A4B7300B262FF /* YFAPIClientConfigure.m in Sources */,
 				0472168B1F02571D00D4F3A9 /* NSArray+Safe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
